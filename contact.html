@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Stephanie K Tong - My Portfolio</title>
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c8da7bcab1.js" crossorigin="anonymous"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3ZK8D47H9Y"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-3ZK8D47H9Y');
+    </script>
+
+</head>
+
+<body class="contact-page">
+    <header>
+        <a class = "skip" href="#main">Skip to Main Content</a>
+        <!-- <div id="home"><a href = "index.html">Home</div> -->
+          <nav>
+            <ul>
+                <li id="home"><a href = 'index.html'> Home</a></li>
+                <div id="casestudycontainer">
+                <li  id="project1"><a href = "mood-dial.html"> Case Study 1: <br>Mood Dial</a></li>
+                <li  id="project2"><a href = "customer-empathy-network.html"> Case Study 2: <br>Customer Empathy Network</a></li>
+                <li id="project3"><a href = "bridgen.html"> Case Study 3: <br>Bridgen</a></li>
+                <li class="active"  id="contact-me"><a href = "contact.html"> Contact Me</a></li>
+              </div>
+            </ul>
+        </nav> 
+
+    </header>
+
+    <main id="main">
+    <div id="contact-container">
+        <h1> Contact Me</h1>
+        <h2>Interested in working together? Fill out this form and I'll get back to you soon.</h2>
+    </div>
+    <div id="form_container">
+        <form action="https://formspree.io/f/xoqrlkjr" method="post" id="contact_form">
+          <div class="name">
+            <label for="name_input">Name</label>
+            <input type="text" placeholder="My name is" name="name" id="name_input" required>
+          </div>
+          <div class="email">
+            <label for="email_input">Email</label>
+            <input type="email" placeholder="My e-mail is" name="email" id="email_input" required>
+          </div>
+
+          <div class="telephone">
+            <label for="telephone_input">Phone Number</label>
+            <input type="text" placeholder="My number is" name="telephone" id="telephone_input" required>
+          </div>
+
+          <div class="subject">
+            <label for="subject_input">Subject Line</label>
+            <select placeholder="Subject line" name="subject" id="subject_input" required>
+              <option disabled hidden selected>Subject line</option>
+              <option>I'd like to start a project</option>
+              <option>I'd like to ask a question</option>
+              <option>I'd like to make a proposal</option>
+            </select>
+          </div>
+
+          <div class="message">
+            <label for="message_input">Message</label>
+            <textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5" required></textarea>
+          </div>
+
+          <div class="submit">
+            <input type="submit" value="Send Message" id="form_button" />
+          </div>
+        </form><!-- // End form -->
+      </div><!-- // End #container -->
+    </main>
+
+    <footer>
+        <a class = "skip" href="#main">Skip to Main Content</a> 
+        <br>
+        <h2> Get in touch</h2>
+        <i class="fa-solid fa-envelope" ></i></i> <a href = "mailto:stephanie.k.tong@gmail.com" > stephanie.k.tong@gmail.com</a> <br>
+        <i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/stephanietong" target="_blank"> LinkedIn</a> <br>
+        <i class="fa-solid fa-rectangle-list"></i> <a href="contact.html" > Submit a project request</a>
+
+    </footer>
+
+</body>
+</html>
