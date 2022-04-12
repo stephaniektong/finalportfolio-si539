@@ -8,6 +8,7 @@ nav{
     display: flex;
     flex-direction: column;
 }
+
 nav ul{
     /* display: flex;
     flex-direction: column; */
@@ -57,6 +58,7 @@ main div{
 h1, h2, h3, h4, form{
     font-family: 'IBM Plex Mono', monospace;
 }
+
 h1{ font-size: x-large;
     color:#188040;
     font-weight:600;}
@@ -92,7 +94,6 @@ a:hover{ text-decoration: underline;
     left: -10000px;
     top: auto;
     overflow:hidden;
-    
 }
 
 main ul {
@@ -133,6 +134,7 @@ img:hover{
     border: solid #000 2px;
     padding: 25px;
 }
+
 img{
     object-fit:cover;
     width: 95%;
@@ -227,7 +229,6 @@ img{
     height: 100%;
     /* -webkit-backface-visibility: hidden; */
     backface-visibility: hidden;
-    
 }
 
 .flip-card-front .banner{
@@ -403,16 +404,16 @@ form textarea {
     color: #768776;
 }
 
-:-moz-placeholder { 
+:-moz-placeholder {
     color: #768776;
     opacity: 1;
 }
-      
+
 ::-moz-placeholder {
     color: #768776;
     opacity: 1;
 }
-      
+
 :-ms-input-placeholder {
     color: #768776;
 }
@@ -473,6 +474,14 @@ color: #F2F3EB;
         justify-content:space-between;
     }
 
+    /* #casestudycontainer{
+        display:flex;
+        flex-direction:row;
+        justify-content: flex-end;
+        margin: 0px;
+        flex-basis: 80vw;
+    } */
+
     nav li{
         background-color: #188040;
         padding: 15px;
@@ -486,7 +495,7 @@ color: #F2F3EB;
 
     #project1{
         border-top-left-radius: 25px;
-        justify-self:flex-end; 
+        justify-self:flex-end;
     }
 
     #home{
@@ -497,14 +506,6 @@ color: #F2F3EB;
         font-size: 24px;
         justify-self:flex-start;
     }
-
-     #casestudycontainer{
-         display:flex;
-         flex-direction:row;
-         justify-content: flex-end;
-         margin: 0px;
-         flex-basis: 80vw;
-     }
 
      main{
         padding-left: 10vh;
@@ -559,7 +560,6 @@ color: #F2F3EB;
         align-self: flex-start;
     }
 
-
     #about-me{
         display:grid;
         grid-template-columns: repeat(3, 1fr);
@@ -583,7 +583,7 @@ color: #F2F3EB;
         padding-left: 15vh;
         padding-right: 15vh;
     }
-    
+
     .gallery_grid{
         grid-template-columns: repeat(3, 1fr);
     }
@@ -617,7 +617,7 @@ color: #F2F3EB;
         padding: 0px 10vh 5vh;
     }
 
-     img{
+    img{
          width: 85%;
      }
 
@@ -637,21 +637,19 @@ color: #F2F3EB;
     }
 }
 
-      /* Commented out code for #home
-      padding: 15px 30px; 
-         grid-column: 1 / span 1;
-         margin-right: 50px; */
-
 @media screen and (prefers-reduced-motion: reduce){
-    .banner{
-        animation: none;
-    }
     .flip-card:hover .flip-card-inner{ 
         animation:none;
         transform:none;
     }
 
+    .banner{
+        animation: none;
+    }
+
     #contact-container{
         background-attachment:scroll;
     }
+
+
 }
