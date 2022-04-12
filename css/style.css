@@ -246,6 +246,25 @@ img{
     transform: rotateY(180deg);
 }
 
+#contact-container{
+    background-image: url("../images/mood_dial_background.jpg");
+    min-height: 500px;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contact-container h1, #contact-container h2{
+    text-align:center;
+    padding: 40px;
+    color: #000;
+    font-weight:bold;
+}
+
+#contact-container h1{
+    font-size: 48pt;
+}
 
 /* ------------- Footer --------------- */
 footer{
@@ -630,5 +649,9 @@ color: #F2F3EB;
     .flip-card:hover .flip-card-inner{ 
         animation:none;
         transform:none;
+    }
+
+    #contact-container{
+        background-attachment:scroll;
     }
 }
