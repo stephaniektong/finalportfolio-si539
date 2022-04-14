@@ -200,7 +200,7 @@ img{
     background-color:transparent;
     width: 500px;
     height: 200px;
-    border: 1px solid #188040;
+    /* border: 1px solid #188040; */
     margin-left: auto;
     margin-right: auto;
     perspective: 1000px;
