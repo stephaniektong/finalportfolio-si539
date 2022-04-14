@@ -118,7 +118,7 @@ img:hover{
     border: solid #188040 3px;
 }
 
-.banner, #customer_empathy_teams, #customer_journey_phases,
+.flip-card,.flip-card-inner, .flip-card-front .banner, .flip-card-front, .flip-card-back,.banner, #customer_empathy_teams, #customer_journey_phases,
 #competitive_analysis_mood_dial, #maslows,#features_title, #feature_requirements{
     display:none;
 }
@@ -461,7 +461,7 @@ color: #F2F3EB;
         animation-iteration-count:1
     }
 
-    #customer_empathy_teams, #customer_journey_phases, #maslows,
+    .flip-card,.flip-card-inner, .flip-card-front .banner, .flip-card-front, .flip-card-back, #customer_empathy_teams, #customer_journey_phases, #maslows,
     #competitive_analysis_mood_dial, #feature_requirements, #features_title{
         display: block;
     }
